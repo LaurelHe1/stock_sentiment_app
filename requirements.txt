@@ -18,3 +18,4 @@ pandas==1.5.2
 numpy
 seaborn
 matplotlib
+dash_bootstrap_components
