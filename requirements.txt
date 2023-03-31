@@ -19,3 +19,5 @@ numpy
 seaborn
 matplotlib
 dash_bootstrap_components
+transformers
+emoji
