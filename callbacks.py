@@ -353,8 +353,8 @@ def plot_wordcloud(company):
     text_bear = wordcloud_df[f'{company}_bear'].dropna().to_dict()
 
     # Load the two images and convert them to numpy arrays
-    mask1 = np.array(Image.open('../logos/bull.png'))
-    mask2 = np.array(Image.open('../logos/bear.png'))
+    mask1 = np.array(Image.open('./logos/bull.png'))
+    mask2 = np.array(Image.open('./logos/bear.png'))
 
     # Create the WordCloud objects with the masks
     wc1 = WordCloud(background_color='white', mask=mask1)
