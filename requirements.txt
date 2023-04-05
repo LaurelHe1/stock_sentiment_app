@@ -1,10 +1,11 @@
+Brotli==1.0.9
 click==8.1.3
-dash==2.9.2
-dash-core-components==2.0.0
-dash-html-components==2.0.0
-dash-table==5.0.0
+dash==0.21.1
+dash-core-components==0.22.1
+dash-html-components==0.10.1
+dash-renderer==0.12.1
 Flask==2.2.3
-gunicorn==20.1.0
+Flask-Compress==1.13
 importlib-metadata==6.1.0
 itsdangerous==2.1.2
 Jinja2==3.1.2
@@ -22,3 +23,8 @@ dash_bootstrap_components
 transformers
 emoji
 torch
+wordcloud
+statsmodels
+scipy
+dash-bootstrap-templates
+wheel
