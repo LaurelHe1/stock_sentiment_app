@@ -25,6 +25,8 @@ app = Dash(
     suppress_callback_exceptions=True,
     # external_stylesheets=[dbc.themes.LUX]
 )
+app.scripts.config.serve_locally = True
+app.css.config.serve_locally = True
 
 server = app.server
 
@@ -102,4 +104,4 @@ def render_page_content(pathname):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8999)
+    app.run_server(debug=True, port=8080)
