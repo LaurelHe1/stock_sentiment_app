@@ -1,5 +1,3 @@
-#FROM amazon/aws-eb-python:3.4.2-onbuild-3.5.1
-
 FROM python:3.8
 ENV DASH_DEBUG_MODE True
 
@@ -13,7 +11,7 @@ COPY ./content.py /content.py
 COPY ./callbacks.py /callbacks.py
 COPY ./globals.py /globals.py
 COPY ./data.py /data.py
-
+COPY ./assets /assets
 
 WORKDIR /
 
